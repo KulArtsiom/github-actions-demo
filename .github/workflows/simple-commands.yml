@@ -1,0 +1,6 @@
+name: Simple Commands
+on: [push]
+
+jobs:
+  build:
+    run-on: ubuntu-latest
