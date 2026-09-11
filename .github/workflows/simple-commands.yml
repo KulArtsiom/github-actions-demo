@@ -3,4 +3,14 @@ on: [push]
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+        run: echo "Hello, World!"
+
+      - name: Show date
+        run: date
+
+      - name: List Files
+        run: ls -la    
+
